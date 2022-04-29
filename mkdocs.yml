@@ -1,4 +1,78 @@
 site_name: Inkyu's page
+site_url: https://inkyusa.github.io/
+site_author: Inkyu Sa
+site_description: >-
+  Inkyu's personal webpage
+repo_url: https://github.com/inkyusa/inkyusa.github.io
+
+# Copyright
+copyright: Copyright &copy; 2022 Inkyu Sa
+
 
 theme:
+  logo: imgs/icons8-bot-100.png
+  favicon: imgs/icons8-bot-48.png #img size should be 48x48 pixel
+  palette:
+    primary: light blue
+    accent: blue
+  icon:
+    repo: fontawesome/brands/git-alt 
   name: material
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - content.code.annotate
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+markdown_extensions:
+  - def_list
+  - attr_list
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.arithmatex
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+extra:
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:enddl22@gmail.com
+    - icon: extern/academicons/svg/google-scholar
+      link: https://scholar.google.com.au/citations?user=KxJU37kAAAAJ&hl=en
+
+nav:
+  - Home: index.md
+  - Project:
+    - project/index.md
+  - Publications:
+    - publications/index.md
+  - Awards:
+    - awards/index.md
+  - Changelog:
+    - changelog/index.md
