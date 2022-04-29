@@ -2,22 +2,16 @@
 title: Curriculum Vitae
 ---
 
-# Research interests
+### Research interests
 My research interests mostly lie in the development of novel approaches for Field Robotics to solve challenging tasks in real-world environments. A particular focus of my research has been on enabling ground robots to perform autonomous search and rescue mission in subterranean scenarios, as part of the DARPA’s Subt challenge. This autonomy can be achieved by deploying techniques such as multimodal sensing, deep reinforcement learning, sensor fusion techniques for precise state estimation, and model-based robust control.
 
-<div class="grid cards" markdown>
-
-- :fontawesome-brands-html5: Argicultural robotics
-- :fontawesome-brands-js: Object detection and semantic classification
-- :fontawesome-brands-css3: Reinforcement Learning
-- :fontawesome-brands-internet-explorer: Unmanned Ground Vehicle
-
-</div>
-
+:octicons-tag-24: __Keywords__: :tractor: Argicultural robotics, :fontawesome-solid-object-group: Object detection and semantic classification, :camera: Perception, :brain: Reinforcement Learning, :race_car: Unmanned Ground Vehicle
 
 You may be able to find more information from [project page].
 
-# Employment
+--- 
+
+### Employment
 
 | Duration      |Title |Affiliation                         |
 | ----------- | ----------------|----------------- |
@@ -27,10 +21,15 @@ You may be able to find more information from [project page].
 | Feb/2005 - May/2009 | Software Engineer| [Samsung Electronics Co]{:target="_blank"}|
 | Feb/2000 - Jan/2006 | Internship  | [Samsung Software Membership]{:target="_blank"}|
 
-  
+---
 
-
-# Education
+### Education
+| Duration      |Department |Affiliation                         |
+| ----------- | ----------------|----------------- |
+| Mar/1999 - Feb/2002 | B.S, [Department of physics] | [Sung Kyun Kwan University (SKKU)]
+| Mar/1999 - Feb/2002 | B.S, [School of Information and Communication Engineering] | Sung Kyun Kwan University (SKKU)
+| Mar/2003 - Feb/2006 | M.S, [School of Electrical and Computer Engineering] | Sung Kyun Kwan University (SKKU)
+| Aug/2010 - Mar/2014 | PhD, [Electrical Engineering and Computer Science] | [Queensland University of Technology (QUT)]
 
 
 
@@ -40,3 +39,9 @@ You may be able to find more information from [project page].
   [ETH Zurich, Autonomous Systems Lab.]: https://asl.ethz.ch/
   [CSIRO, Robotics and Autonomous Systems Lab.]: https://research.csiro.au/robotics/
   [project page]: ../project/index.md
+  [Department of physics]: http://physics.skku.ac.kr/xe/eng
+  [School of Information and Communication Engineering]: https://ice.skku.edu/eng_ice/index.do
+  [School of Electrical and Computer Engineering]: https://skb.skku.edu/eng_ice/programs/departments/elec_intro.do
+  [Sung Kyun Kwan University (SKKU)]: https://www.skku.edu/eng/index.do
+  [Queensland University of Technology (QUT)]: https://www.qut.edu.au
+  [Electrical Engineering and Computer Science]: https://www.qut.edu.au/about/faculty-of-science/school-of-computer-science
