@@ -67,11 +67,13 @@ extra:
   social:
     - icon: fontawesome/solid/paper-plane
       link: mailto:enddl22@gmail.com
-    - icon: extern/academicons/svg/google-scholar
+    - icon: academicons/svg/google-scholar
       link: https://scholar.google.com.au/citations?user=KxJU37kAAAAJ&hl=en
 
 nav:
   - Home: index.md
+  - CV:
+    - cv/index.md
   - Project:
     - project/index.md
   - Publications:
