@@ -2,6 +2,12 @@
 title: Curriculum Vitae
 ---
 
+Please refer to [my resume]{:target="_blank"} for project, and publications.
+
+[my resume]: https://drive.google.com/file/d/1-I1r6QAQClcDq_r-C6gFR275TXLAvfyM/view?usp=sharing
+
+
+
 ### Research interests
 My research interests mostly lie in the development of novel approaches for Field Robotics to solve challenging tasks in real-world environments. A particular focus of my research has been on enabling ground robots to perform autonomous search and rescue mission in subterranean scenarios, as part of the DARPA’s Subt challenge. This autonomy can be achieved by deploying techniques such as multimodal sensing, deep reinforcement learning, sensor fusion techniques for precise state estimation, and model-based robust control.
 
